@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Любимая моя</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf3f6;
+      color: #333;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #ff69b4;
+      margin-top: 50px;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    .button {
+      margin-top: 40px;
+      padding: 18px 35px;
+      font-size: 22px;
+      background-color: #ff1493;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ff69b4;
+      transform: scale(1.1);
+    }
+
+    .content {
+      display: none;
+      margin-top: 30px;
+      font-size: 20px;
+      color: #333;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .content ul {
+      text-align: left;
+      list-style-type: none;
+      padding-left: 0;
+      line-height: 1.8;
+    }
+
+    .content ul li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .image-container img {
+      width: 350px;
+      height: 350px;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-container {
+      margin-top: 40px;
+      padding: 10px;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 450px;
+      border-radius: 10px;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      height: 450px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Любимая моя, открой пожалуйста ❤️</h1>
+
+  <div class="button" onclick="showContent()">Открой</div>
+
+  <div class="content">
+    <div class="image-container">
+      <img src="photo1.jpg" alt="Фото 1">
+      <img src="photo2.jpg" alt="Фото 2">
+    </div>
+    <ul>
+      <li>Лутфия ты невероятно красивая и каждый день с тобой это настоящее счастье для меня, каждый день я чувствую рядом с тобой себя живым и день без тебя невозможно представить поверь❤️!</li>
+      <li>Любимая я влюблен в твою фигуру она идеальна у тебя,я таю каждый раз когда думаю о ней, у тебя очень утонченная фигура каждый сантиметр я знаю и уверен ты совершенная❤️</li>
+      <li>Сакам твои гипнотизирующие глаза это самые выразительные и красивые глаза, которые я когда-либо видел. В них я нахожу покой и вдохновение❤️</li>
+      <li>Твои губы... Они такие нежные и мягкие. Мне всегда хочется целовать их, потому что они символ твоей красоты и любви, очень притягательные моя алтоська❤️</li>
+      <li>Твое лицо козама это произведение искусства. Ангельское,очаровательное с улыбкой, которая озаряет все вокруг❤️</li>
+      <li>Aşkım ИМЕННО твой смех ИМЕННО твой голос это мелодия для моих ушей. Он наполняет меня радостью и светом❤️</li>
+      <li>Canim волосы они такие золотистые и шикарные. Я люблю смотреть, как они колышутся на ветру❤️</li>
+      <li>Моя жизнь, мое сердце, мое счастье твои брови и ресницы создают невероятную силу притяжения и подчеркивают твою удивительную красоту❤️</li>
+      <li>Только твоя харизма моя душа это что то с чем то особенным.Неповторимая уверенность которая никто не достигнит❤️</li>
+      <li>Чирайлик чирайлик, татлик татлик сойгунум у тебя взгляд может заставить мое сердце биться быстрее и я чувствую, как ты видишь меня всем сердцем❤️</li>
+      <li>У моей девочки улыбка это луч солнца, который разгоняет все тучи и наполняет мою душу светом и теплом❤️</li>
+      <li>Я невероятно счастлив что ты моя любимая самая лучшая во всем мире девочка❤️!Ты смысл моей жизни и я так сильно люблю тебя всем сердцем Лутфияшка любовь моя❤️❤️❤️</li>
+    </ul>
+  </div>
+
+  <div class="video-container">
+    <video controls autoplay loop>
+      <source src="my_video.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+
+  <div class="video-container">
+    <video controls autoplay loop>
+      <source src="second_video.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+
+  <script>
+    function showContent() {
+      document.querySelector('.content').style.display = 'block';
+      document.querySelector('.button').style.display = 'none';  // Убираем кнопку после нажатия
+    }
+  </script>
+
+</body>
+</html>
